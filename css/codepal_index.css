@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.top{
+	height: 50px;
+	background: -webkit-linear-gradient(red 10%, green 85%, blue 90%); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(red 10%, green 85%, blue 90%); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(red 10%, green 85%, blue 90%); /* Firefox 3.6 - 15 */
+    background: linear-gradient(SkyBlue 10%, snow 85%); /* 标准的语法（必须放在最后） */
+}
+.list{
+	height: 50px;
+	
+}
+.list li{
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+	line-height: 50px;
+}
+/*伪类选择器*/
+a:hover{
+	background-color: pink;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 15px;
+}
+

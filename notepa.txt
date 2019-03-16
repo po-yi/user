@@ -1,0 +1,92 @@
+快捷键
+li*4+tab
+div.list>div#page+tab
+
+
+选择器  优先级：!important>行间样式>id>class | 属性>标签选择器>通配符
+1.id选择器
+2.class选择器
+3.标签选择器
+4.[id]{}/[class]  或者 [id="only"]   同级看先后顺序
+5.属性后面加!important   例子：color:red!important
+
+选择器的优先级（权重）
+名称					值（顺序值：256进制）
+!important			Infinity
+行间样式				1000
+id					100
+class | 属性			10
+标签选择器			1
+通配符				0
+
+css派生选择器/父子选择器  div span{}  直接或间接的父子关系  浏览器内部自右向左进行判断
+直接子元素选择器	div > span
+并列选择器：div.class{}
+分组选择器：em,div,p{}
+em,
+div,
+p{}
+
+
+font-size:12px;		设置字体大小-高
+font-weight:bold; 	设置字体属性    lighter细体 normal正常字体/400 bold粗体 /700 bolder特粗体  也可以数值100-900
+font-style:italic;	设置字体斜体
+font-family:arial;	设置字体
+color:red;
+1.单词写法-测试用；
+2.#fff000-开发用；两位一个颜色
+3.rgb(255,255,255);
+border:1px solid pink;	设置边框样式
+border拆解写法：
+1.border-weight:1px;
+2.border-style:dotted/dashed;虚线
+3.border-color:pink;
+4.border-left-color:red;
+5.border-right-color:red;
+6.border-top-color:red;
+7.border-bottom-color:red; 透明色：transparent
+
+css注释方式 /* 注释 */
+text-align：left;对齐方式
+line-height:20p;设置字体行高 1.2em  1.2倍行高
+text-inden:2em;首行缩进距离   em为文字个数  1em=1*fone-size;
+text-decoration:line-through;==<del>效果 underline；下划线效果 overline； 上划线效果
+cursor:pointer;光标显示为小手 help 光标显示为问号 e-resize 右光标      -----------改变鼠标提示符
+
+a:hover{
+
+}
+
+盒子模型= width+height+padding+（content=width+height）
+
+盒子的三大部分
+1.盒子壁	border
+2.内边距	padding
+3.盒子内容 width+height;
+
+
+
+
+1.border-width
+2.padding
+3.margin
+padding：上右下左
+padding：上（左右）下
+padding：（上下）（左右）
+
+position:absolute;绝对定位特点：可以在不同的层面出现，脱离原来位置定位，相对于有最近的有定位的父集进行定位，如果没有最近的有定位的父集进行就对文档进行定位
+position:relative；相对定位特点：保留原来位置进行定位，相对于原来出生的位置进行定位
+position:fiexd；特点：保留原来位置进行定位
+z-index：只对position有用
+距离右边：right:
+距离上边：top:
+
+父子垂直的margin是取最大值
+
+
+
+
+
+
+
+
